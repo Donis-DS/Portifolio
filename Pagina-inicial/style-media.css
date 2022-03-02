@@ -26,11 +26,9 @@
 
     header {
         flex-direction: column;
+        height: 90px;
     }
 
-    #header-nome {
-        margin: 10px;
-    }
 
     #section-img-text {
         width: 350px;
@@ -46,7 +44,7 @@
         font-size: 17px;
     }
     #section-img {
-        background-position: -110px;
+        background-position: -140px;
     }
 
     #section2 {
@@ -79,7 +77,7 @@
         font-size: 27px;
     }
     #section3 > ul > a {
-        padding: 0px;
+        padding: 0px 5px;
     }
 }
 
@@ -91,5 +89,8 @@
     #section3 > ul > a {
         display: block;
         text-align: center;
+    }
+    #section-img {
+        background-position: -170px;
     }
 }
