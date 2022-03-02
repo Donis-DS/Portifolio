@@ -38,10 +38,6 @@ nav a:hover {
 }
 
 #section-img {
-
-}
-
-#section-img {
     display: flex;
     background-image: url('imagens/pexels-jéshoots-238118.jpg');
     height: calc(100vh - 70px);
@@ -52,7 +48,7 @@ nav a:hover {
 #section-img-text {
     width: 440px;
     height: 300px;
-    margin-left: 170px;
+    margin-left: calc(-60px + 20%);
     margin-top: 150px;
 }
 
@@ -83,6 +79,7 @@ nav a:hover {
     display: flex;
     margin-top: 50px;
     margin-bottom: 40px;
+    width: auto;
 }
 
 #section2-title {
@@ -99,15 +96,19 @@ nav a:hover {
     width: 250px;
     height: auto;
     border-radius: 50%;
-    margin-left: 170px;
     margin-right: 90px;
-    top: -5px;
     box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.1), 1px 1px 85px rgba(0, 0, 0, 0.15), 4px 3px 160px rgba(0, 0, 0, 0.2);
+}
+#section2-img {
+    margin-left: calc(-60px + 20%);
+    margin-top: calc(-10% + 125px);
 }
 
 #section2-text {
-    margin-right: 30px;
+    margin-right: 50px;
     width: 600px;
+    text-align: justify;
+
 }
 #section2-text p {
     margin-top: 30px;
@@ -127,16 +128,13 @@ nav a:hover {
     background-color: #252627;
     color: #E1E2EF;
     display: flex;
-    padding: 0px 170px 200px 170px;
+    padding: 0px 40px 200px 40px;
     font-size: 18px;
     height: 60px;
     align-items: center;
     flex-direction: column;
     line-height: 30px;
-}
-
-#section3 p {
-
+    text-align: justify;
 }
 
 #section3 > ul {
