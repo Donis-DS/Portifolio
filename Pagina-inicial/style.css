@@ -142,8 +142,8 @@ nav a:hover {
 }
 #section3 > ul > a {
     text-decoration: none;
-    margin: 15px;
-    padding: 10px 12px;
+    margin: 25px;
+    padding: 8px 10px;
     color: #C42021;
     border-radius: 20px;
     transition: 0.5s;
