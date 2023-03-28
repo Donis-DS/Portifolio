@@ -127,6 +127,7 @@ nav a:hover {
 #section3 {
     background-color: #252627;
     color: #E1E2EF;
+    height: 90%;
     display: flex;
     padding: 0px 40px 200px 40px;
     font-size: 18px;
